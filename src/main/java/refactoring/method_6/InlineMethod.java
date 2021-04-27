@@ -11,6 +11,10 @@ package refactoring.method_6;
 public class InlineMethod {
 	private int numberOfLateDeliveries;
 	int getRating() {
-		return numberOfLateDeliveries > 5 ? 2: 1;
+		return (moreThanFileLateDeliveries()) ? 2: 1;
+	}
+	
+	private boolean moreThanFileLateDeliveries() {
+		return numberOfLateDeliveries > 5;
 	}
 }

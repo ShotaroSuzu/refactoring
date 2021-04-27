@@ -11,7 +11,8 @@ import java.util.List;
  * ・メソッド　の粒度が細かい場合はオーバーライドできたり、移譲が簡単になったりする。
  * 
  * Eclipseショートカット
- * Alt + Shift + M
+ * Windows: Alt + Shift + M
+ * Mac: Opt + Shift + M 
  * @author cosmo
  *
  */

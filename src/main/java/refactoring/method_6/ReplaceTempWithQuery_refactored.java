@@ -11,7 +11,7 @@ package refactoring.method_6;
  * ・Alt + Shift + M :メソッドの抽出
  * ・Alt + Shift + I：一時変数のインライン化
  */
-public class ReplaceTempWithQuery_redactored {
+public class ReplaceTempWithQuery_refactored {
 	private double quantity;
 	private double itemPrice;
 	private double someMethod() {
