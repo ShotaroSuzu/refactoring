@@ -2,9 +2,9 @@ package refactoring.data_8.replaceTypeCodeWithSubclass.prev;
 
 public class Employee {
 	private int type;
-	private final int ENGINEER = 0;
-	private final int SALESMAN = 1;
-	private final int MANAGER = 2;
+	public final static int ENGINEER = 0;
+	public final static int SALESMAN = 1;
+	public final static int MANAGER = 2;
 	
 	public Employee(int type) {
 		this.type = type;
