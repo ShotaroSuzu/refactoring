@@ -11,7 +11,7 @@ public class DecomposeConditional {
 
 	public long calcFee(Date date, long quantity) {
 		long charge = 0;
-		if(date.before(summerStart) | date.after(summerEnd)) {
+		if(date.before(summerStart) || date.after(summerEnd)) {
 			charge = quantity * winterRate + winterServiceCharge;
 		} else {
 			charge = quantity * summerRate;
