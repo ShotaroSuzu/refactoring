@@ -14,11 +14,10 @@ public class ConsolidateDuplicateConditionalFragments_refactored {
 		//前処理
 		if(isSpecialDeal()) {
 			total = price * 0.95;
-			send();
 		} else {
 			total = price * 0.98;
-			send();
 		}
+		send();
 	}
 
 	private void send() {
